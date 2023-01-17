@@ -1,0 +1,28 @@
+<%- include('../partials/header') %>
+
+<h2>Flights</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Airline</th>
+      <th>Airport</th>
+      <th>Flight Number</th>
+      <th>Departure Date</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <% flights.forEach((m) => { %>
+      <tr>
+        <td><%= m.Airline %></td>
+        <td><%= m.Airport %></td>
+        <td><%= m.Flight Number %></td>
+        <td><%= m.Departure Date(', ') %></td>
+
+        
+      </tr>
+   <% }) %>
+  </tbody>
+</table>
+
+<%- include('../partials/header') %>
