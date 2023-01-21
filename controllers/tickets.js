@@ -10,7 +10,7 @@ module.exports = {
 
 function newTicket(req, res) {
     res.render('tickets/new', {
-        title: 'add ticket',
+        title: 'add-ticket',
         tickets
     })
 }
