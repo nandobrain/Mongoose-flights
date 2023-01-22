@@ -11,11 +11,15 @@
   <div><%= flight.flightDate %></div>
  
   <div>New Ticket:</div>
- 
 
-  <form id="add-ticket" action="/flights/<%= flight._id %>/tickets" method="POST">
 
-  </form>
+<form id="add-ticket" action="/flights/<%= flight._id %>/tickets" method="POST">
+<select name="ticketId">
+
+
+</select>
+<button type="submit">Add ticket</button>
+</form>
 
   
 </section>
